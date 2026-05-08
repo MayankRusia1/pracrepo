@@ -1,0 +1,201 @@
+1. Launch browser and open a URL (Chrome/Edge setup)
+
+2. Locate elements using all locators (id, name, xpath, css, etc.)
+
+3. Write dynamic XPath / CSS selector
+
+4. Handle WebElement (click, sendKeys, getText, getAttribute)
+
+5. Handle dropdown (Select class - selectByVisibleText, value, index)
+
+6. Handle checkbox & radio buttons
+
+7. Handle alerts (accept, dismiss, getText)
+
+8. Handle frames / iframes (switchTo().frame())
+
+9. Handle multiple windows / tabs
+
+10. Implicit wait vs Explicit wait (WebDriverWait + ExpectedConditions)
+
+11. Write code for explicit wait (elementToBeClickable / visibilityOf)
+
+12. Take screenshot (TakesScreenshot)
+
+13. Scroll page (JavaScriptExecutor)
+
+14. Mouse actions (Actions class - hover, drag & drop)
+
+15. Keyboard actions (Keys class)
+
+16. Handle dynamic web tables (fetch rows/columns)
+
+17. Count number of links/images on page
+
+18. Broken links handling (using HttpURLConnection)
+
+19. File upload (sendKeys)
+
+20. File download verification
+
+21. Handle hidden elements
+
+22. Retry logic (basic loop or TestNG retry analyzer)
+
+23. Page Object Model (create page class + methods)
+
+24. DataProvider in TestNG (parameterization)
+
+25. Read data from Excel (Apache POI basic)
+
+26. Write data to Excel
+
+27. Read data from properties file (config)
+
+28. Logging (basic log or System.out)
+
+29. Assertions (TestNG Assert)
+
+30. Parallel execution (basic TestNG XML idea)
+
+31. Cross browser testing setup
+
+32. Headless browser execution
+
+33. Handle stale element exception
+
+34. Fluent wait (basic idea/code)
+
+35. Handle auto-suggestion dropdown
+
+36. Handle calendar/date picker
+
+37. Handle pagination
+
+38. Shadow DOM handling (basic awareness)
+
+39. Execute JavaScript click when normal click fails
+
+40. Capture and print all window titles
+
+41. Navigate commands (back, forward, refresh)
+
+42. Get page title and URL validation
+
+43. Soft vs Hard assertions
+
+44. TestNG annotations usage (@Test, @BeforeMethod, etc.)
+
+45. Basic framework structure (folder + classes explanation)
+
+
+
+package selenium_advanced;
+
+public class SeleniumAdvancedPractice {
+
+    // 🔹 Browser & Driver Management
+    public static void launchBrowserWithOptions() {}
+    public static void webDriverManagerSetup() {}
+    public static void headlessExecution() {}
+    public static void incognitoModeExecution() {}
+    public static void handleBrowserPermissions() {}
+
+    // 🔹 Locators & Advanced XPath
+    public static void dynamicXpathCss() {}
+    public static void advancedXpathAxes() {}
+    public static void relativeLocators() {}
+    public static void shadowDomHandling() {}
+
+    // 🔹 WebElement Handling
+    public static void handleWebElement() {}
+    public static void handleHiddenElements() {}
+    public static void javascriptExecutorActions() {}
+    public static void javascriptClickSendKeys() {}
+
+    // 🔹 Waits (Real Scenarios)
+    public static void implicitVsExplicitWait() {}
+    public static void explicitWaitReusableMethod() {}
+    public static void fluentWaitExample() {}
+    public static void waitForLoaderToDisappear() {}
+    public static void waitForElementRetryLogic() {}
+
+    // 🔹 User Actions
+    public static void mouseActionsAdvanced() {}
+    public static void keyboardActionsAdvanced() {}
+    public static void dragAndDropCustomJS() {}
+
+    // 🔹 Complex UI Handling
+    public static void handleWebTablesDynamic() {}
+    public static void handlePaginationDynamic() {}
+    public static void autoSuggestionDropdown() {}
+    public static void multiSelectDropdown() {}
+    public static void datePickerAdvanced() {}
+    public static void infiniteScrollHandling() {}
+
+    // 🔹 Windows, Frames, Alerts
+    public static void handleMultipleWindowsAdvanced() {}
+    public static void switchToFrameNested() {}
+    public static void handleAlertsAdvanced() {}
+
+    // 🔹 File Handling
+    public static void fileUploadAdvanced() {}
+    public static void fileDownloadVerificationAdvanced() {}
+    public static void readExcelApachePOI() {}
+    public static void writeExcelApachePOI() {}
+    public static void readPropertiesConfig() {}
+
+    
+    // 🔹 Logging & Reporting
+    public static void loggingWithLog4j() {}
+    public static void extentReportsIntegration() {}
+
+    // 🔹 Exception Handling (Real Issues)
+    public static void handleStaleElementProperly() {}
+    public static void handleNoSuchElement() {}
+    public static void handleTimeoutException() {}
+
+    // 🔹 Cross Browser & Grid
+    public static void crossBrowserExecution() {}
+    public static void seleniumGridSetup() {}
+    public static void remoteWebDriverExecution() {}
+
+    // 🔹 Performance & Stability
+    public static void retryFailedTestsLogic() {}
+    public static void parallelExecutionStrategy() {}
+    public static void optimizeTestExecutionTime() {}
+
+
+    // 🔹 Misc Real Scenarios
+    public static void handleBrokenLinks() {}
+    public static void handleBrokenImages() {}
+    public static void captureScreenshotsOnFailure() {}
+    public static void validateTitleAndUrl() {}
+    public static void navigationCommands() {}
+    public static void captureAllWindowTitles() {}
+
+
+
+
+// 🔹 API + UI Integration (🔥 must for 100/100)
+    public static void validateApiResponseWithUI() {}
+    public static void createDataViaApiAndValidateUI() {}
+
+    // 🔹 Database Integration (🔥 real project)
+    public static void databaseConnection() {}
+    public static void validateDataFromDBWithUI() {}
+
+    // 🔹 Framework Level
+    public static void baseTestSetup() {}
+    public static void driverFactoryPattern() {}
+    public static void pageObjectModel() {}
+    public static void pageFactoryImplementation() {}
+    public static void reusableUtilities() {}
+    public static void configReaderUtility() {}
+    
+    
+    // 🔹 DevTools (Advanced - 🔥 differentiator)
+    public static void captureNetworkLogs() {}
+    public static void blockNetworkRequests() {}
+    public static void emulateMobileView() {}
+}
